@@ -1,0 +1,17 @@
+# Site settings
+title: knoot.li
+email: ritter.thomas+blg@gmail.com
+author: Thomas Ritter
+description: "Things I learned. Rails and Android mostly."
+baseurl: ""
+url: "http://knoot.li"
+google_analytics:
+animated: true
+show_related_posts: false
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 5
+sass:
+  compressed: true
