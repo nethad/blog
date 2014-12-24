@@ -4,14 +4,20 @@ email: ritter.thomas+blg@gmail.com
 author: Thomas Ritter
 description: "Things I learned. Rails and Android mostly."
 baseurl: ""
-url: "http://knoot.li"
+url: "/"
 google_analytics:
-animated: true
+animated: false
 show_related_posts: false
+
+timezone: Europe/Zurich
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /post/:title/
 paginate: 5
 sass:
   compressed: true
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
