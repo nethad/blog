@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+rsync --verbose --compress --recursive --checksum --delete _site/ thomas@hosteurope:/srv/sites/blogknoot/
